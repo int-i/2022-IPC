@@ -13,7 +13,7 @@ int main() {
 	std::ios::sync_with_stdio(false);
 	cin.tie(nullptr);
 
-	int n{ [&] {return cin >> n, n; }() };
+	int n{ [&] { return cin >> n, n; }() };
 
 	// 입력 값의 범위가 1 ~ 100이기 때문에 min의 기본값을 입력 최대값인 100으로,
 	// max의 기본값을 입력 최소값인 1로 넣어주었다.
